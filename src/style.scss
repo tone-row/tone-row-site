@@ -1,0 +1,66 @@
+:root {
+  --u: 20px;
+}
+
+@font-face {
+  font-family: 'Ginto';
+  font-weight: 400;
+  src: url('./assets/GintoNormalTrial-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Ginto';
+  font-weight: 100;
+  src: url('./assets/GintoNormalTrial-Light.woff') format('woff');
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Ginto', sans-serif;
+  font-size: 100%;
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+}
+
+.container {
+  max-width: 1000px;
+  margin: var(--u);
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 25px;
+
+  line-height: 1.25;
+  font-weight: 400;
+
+  @media (min-width: 600px) {
+    font-size: 45px;
+  }
+}
+
+h2 {
+  // position: fixed;
+  // bottom: var(--u);
+  // left: var(--u);
+  font-size: 25px;
+  font-weight: 100;
+  display: inline-block;
+  transform-origin: bottom left;
+  transform: rotate(0.125turn) perspective(0);
+  span {
+    font-size: 2em;
+  }
+}
