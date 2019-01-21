@@ -195,6 +195,14 @@ require("normalize.css");
 require("./assets/sporting-grotesque/font.css");
 
 require("./style.scss");
+
+var solutions = document.getElementById('solutions');
+solutions.addEventListener('mouseover', function () {
+  document.body.classList.add('hovering');
+});
+solutions.addEventListener('mouseleave', function () {
+  document.body.classList.remove('hovering');
+});
 },{"normalize.css":"../node_modules/normalize.css/normalize.css","./assets/sporting-grotesque/font.css":"assets/sporting-grotesque/font.css","./style.scss":"style.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -222,7 +230,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57526" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59655" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
