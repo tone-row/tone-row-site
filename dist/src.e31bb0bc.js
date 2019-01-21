@@ -177,7 +177,12 @@ module.exports = reloadCSS;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"style.scss":[function(require,module,exports) {
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/sporting-grotesque/font.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./Regular/Sporting_Grotesque-Regular_web.eot":[["Sporting_Grotesque-Regular_web.07135e52.eot","assets/sporting-grotesque/Regular/Sporting_Grotesque-Regular_web.eot"],"assets/sporting-grotesque/Regular/Sporting_Grotesque-Regular_web.eot"],"./Regular/Sporting_Grotesque-Regular_web.woff":[["Sporting_Grotesque-Regular_web.76bdff54.woff","assets/sporting-grotesque/Regular/Sporting_Grotesque-Regular_web.woff"],"assets/sporting-grotesque/Regular/Sporting_Grotesque-Regular_web.woff"],"./Regular/Sporting_Grotesque-Regular_web.woff2":[["Sporting_Grotesque-Regular_web.019ef3a6.woff2","assets/sporting-grotesque/Regular/Sporting_Grotesque-Regular_web.woff2"],"assets/sporting-grotesque/Regular/Sporting_Grotesque-Regular_web.woff2"],"./Regular/Sporting_Grotesque-Regular_web.ttf":[["Sporting_Grotesque-Regular_web.b6ccd400.ttf","assets/sporting-grotesque/Regular/Sporting_Grotesque-Regular_web.ttf"],"assets/sporting-grotesque/Regular/Sporting_Grotesque-Regular_web.ttf"],"./Regular/Sporting_Grotesque-Regular_web.svg":[["Sporting_Grotesque-Regular_web.52d1ac6d.svg","assets/sporting-grotesque/Regular/Sporting_Grotesque-Regular_web.svg"],"assets/sporting-grotesque/Regular/Sporting_Grotesque-Regular_web.svg"],"./Bold/Sporting_Grotesque-Bold_web.eot":[["Sporting_Grotesque-Bold_web.0c264a0c.eot","assets/sporting-grotesque/Bold/Sporting_Grotesque-Bold_web.eot"],"assets/sporting-grotesque/Bold/Sporting_Grotesque-Bold_web.eot"],"./Bold/Sporting_Grotesque-Bold_web.woff":[["Sporting_Grotesque-Bold_web.486f965f.woff","assets/sporting-grotesque/Bold/Sporting_Grotesque-Bold_web.woff"],"assets/sporting-grotesque/Bold/Sporting_Grotesque-Bold_web.woff"],"./Bold/Sporting_Grotesque-Bold_web.woff2":[["Sporting_Grotesque-Bold_web.c53fd56a.woff2","assets/sporting-grotesque/Bold/Sporting_Grotesque-Bold_web.woff2"],"assets/sporting-grotesque/Bold/Sporting_Grotesque-Bold_web.woff2"],"./Bold/Sporting_Grotesque-Bold_web.ttf":[["Sporting_Grotesque-Bold_web.c3c0a5be.ttf","assets/sporting-grotesque/Bold/Sporting_Grotesque-Bold_web.ttf"],"assets/sporting-grotesque/Bold/Sporting_Grotesque-Bold_web.ttf"],"./Bold/Sporting_Grotesque-Bold_web.svg":[["Sporting_Grotesque-Bold_web.a2ff6f2d.svg","assets/sporting-grotesque/Bold/Sporting_Grotesque-Bold_web.svg"],"assets/sporting-grotesque/Bold/Sporting_Grotesque-Bold_web.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"style.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -187,8 +192,10 @@ module.hot.accept(reloadCSS);
 
 require("normalize.css");
 
+require("./assets/sporting-grotesque/font.css");
+
 require("./style.scss");
-},{"normalize.css":"../node_modules/normalize.css/normalize.css","./style.scss":"style.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"normalize.css":"../node_modules/normalize.css/normalize.css","./assets/sporting-grotesque/font.css":"assets/sporting-grotesque/font.css","./style.scss":"style.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -215,7 +222,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64459" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53320" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
