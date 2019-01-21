@@ -2,16 +2,6 @@
   --u: 20px;
 }
 
-@font-face {
-  font-family: "Ginto";
-  font-weight: 400;
-  src: url("GintoNormalTrial-Regular.951483c4.woff") format("woff");
-}
-@font-face {
-  font-family: "Ginto";
-  font-weight: 100;
-  src: url("GintoNormalTrial-Light.0fd5332d.woff") format("woff");
-}
 html,
 body {
   margin: 0;

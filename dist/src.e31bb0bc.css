@@ -378,16 +378,6 @@ template {
   --u: 20px;
 }
 
-@font-face {
-  font-family: "Ginto";
-  font-weight: 400;
-  src: url("GintoNormalTrial-Regular.951483c4.woff") format("woff");
-}
-@font-face {
-  font-family: "Ginto";
-  font-weight: 100;
-  src: url("GintoNormalTrial-Light.0fd5332d.woff") format("woff");
-}
 html,
 body {
   margin: 0;
@@ -413,6 +403,7 @@ body {
   padding: var(--u);
   font-size: 25px;
   min-height: 100%;
+  max-width: 1300px;
   display: flex;
   flex-direction: column;
 }
@@ -435,5 +426,12 @@ h2 {
   display: inline-block;
   transform-origin: bottom left;
   margin-top: auto;
-  white-space: nowrap;
+}
+h2 span {
+  display: block;
+}
+@media (min-width: 800px) {
+  h2 span {
+    display: inline;
+  }
 }
